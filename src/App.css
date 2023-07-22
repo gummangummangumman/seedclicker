@@ -1,0 +1,116 @@
+body {
+  background-color: #aaffaa;
+}
+
+.App {
+  text-align: center;
+}
+
+.TextButton{
+  padding: 20px;
+  background-color: #22ff22;
+  border: solid;
+  border-color: #007700;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.TextButtonWhite{
+  padding: 20px;
+  background-color: #ddeedd;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.TextButton:disabled{
+  background-color: #aaffaa;
+}
+
+#reset .TextButton{
+  background-color: #ff0000;
+  border-color: black;
+}
+
+#faq .TextButton{
+  background-color: #ddeedd;
+  border-color: black;
+}
+
+.Upgrades{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#footer span{
+  margin: 5px;
+}
+
+
+
+.Seeds{
+  font-size: 200%;
+  margin-bottom: 10px;
+}
+
+.Vpc{
+  margin-bottom: 0px;
+}
+
+.Gumman{
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+.GummanFlipped{
+  border: none;
+  background: none;
+  padding: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.Gumman:focus, .GummanFlipped:focus{
+  outline: none
+}
+
+.Gumman img, .GummanFlipped img{
+  border-radius: 30px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  bottom: 15%;
+  margin: auto;
+  background: white;
+  padding: 5px;
+  overflow: auto;
+}
+
+.popup_inner button{
+  margin: 10px;
+  padding: 30px;
+}
